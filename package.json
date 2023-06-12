@@ -1,0 +1,20 @@
+{
+  "name": "react-icon-lib",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "svgr": "svgr --icon --title-prop --replace-attr-values  'rgb(101,101,101)=currentColor' -d src assets"
+  },
+  "keywords": [
+    "React",
+    "SVG",
+    "Icons"
+  ],
+  "author": "waseem ahmed email:waseemahmed116@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/cli": "^8.0.1",
+    "rimraf": "^5.0.1"
+  }
+}
